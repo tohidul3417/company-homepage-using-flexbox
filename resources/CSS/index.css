@@ -107,11 +107,12 @@ nav div ul li a {
 #banner {
     position: relative;
     top: 5.3125rem;
-    background-image: url('../images/banner.jpg');
+    /* background-image: url('../images/banner.jpg'); */
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: auto;
+    margin-bottom: 10rem;
     
 
 }
@@ -125,7 +126,7 @@ nav div ul li a {
     align-content: center;
     display: flex;
     flex-direction: column;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     color: rgba(23, 8, 193, 0.66);
     font-weight: 800;
     margin: auto;
@@ -219,4 +220,9 @@ nav div ul li a {
     .quality-block {
         width: 90%;
     }
+}
+
+footer {
+    padding-right: 2rem;
+    text-align: right;
 }
